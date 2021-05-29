@@ -157,8 +157,6 @@ void checkAlternating(int start)
 }
 
 
-#define randomSize (1 << ADDR_BITS*2) / 8
-
 void checkRandom()
 {
   // Generate a somewhat random seed
